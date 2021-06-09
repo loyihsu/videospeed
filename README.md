@@ -18,6 +18,30 @@ studies report that after being exposed to accelerated playback,
 [listeners become uncomfortable](http://alumni.media.mit.edu/~barons/html/avios92.html#beasleyalteredspeech)
 if they are forced to return to normal rate of presentation.
 
+## Try this in Safari!
+
+This branch features a Safari port of the extension.
+
+This is achieved by wrapping the extension inside a Safari Extension App.
+
+To try out this extension, install and open the app.
+
+![image-20210610032707638](https://i.loli.net/2021/06/10/TwNu8Q36PyFOJVE.png)
+
+Click the button and enable it in the Safari Extensions Preferences.
+
+Because Safari only allows for Extensions distributed via the App Store as 'Signed Extension', this extension will require you to enable Develop menu in the Preferences:
+
+![image-20210610035909538](https://i.loli.net/2021/06/10/OXkZApGSimKu9o2.png)
+
+And you will need to allow Unsigned Extension to show the Extension. (The codes and the project to build it is all available in this project. You can decide whether you trust this app.)
+
+![image-20210610035944592](https://i.loli.net/2021/06/10/kzD9ajAShyUxvtc.png)
+
+Now you can see the Extension in the menu.
+
+![image-20210610040247187](https://i.loli.net/2021/06/10/Kp2hgR8iFOXVSY7.png)
+
 ## Faster HTML5 Video
 
 HTML5 video provides a native API to accelerate playback of any video. The

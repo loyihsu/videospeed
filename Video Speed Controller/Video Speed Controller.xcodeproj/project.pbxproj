@@ -75,7 +75,7 @@
 		FF32985F267145BB00FB7602 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../icons; sourceTree = "<group>"; };
 		FF329860267145BB00FB7602 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../manifest.json; sourceTree = "<group>"; };
 		FF329861267145BB00FB7602 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = ../../options.html; sourceTree = "<group>"; };
-		FF329862267145BB00FB7602 /* Video Speed Controller */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Video Speed Controller"; sourceTree = SOURCE_ROOT; };
+		FF329862267145BB00FB7602 /* Video Speed Controller */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Video Speed Controller"; sourceTree = SOURCE_ROOT; };
 		FF329863267145BB00FB7602 /* inject.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = inject.js; path = ../../inject.js; sourceTree = "<group>"; };
 		FF329864267145BB00FB7602 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = ../../popup.css; sourceTree = "<group>"; };
 		FF329865267145BB00FB7602 /* options.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = options.css; path = ../../options.css; sourceTree = "<group>"; };
@@ -439,6 +439,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Video Speed Controller Extension/Video_Speed_Controller_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Video Speed Controller Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,6 +459,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Video Speed Controller Extension/Video_Speed_Controller_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Video Speed Controller Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -481,6 +483,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Video Speed Controller/Video_Speed_Controller.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Video Speed Controller/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -502,6 +505,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Video Speed Controller/Video_Speed_Controller.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Video Speed Controller/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
